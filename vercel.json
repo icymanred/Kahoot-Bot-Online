@@ -1,1 +1,3 @@
-  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
+{
+  "rewrites": [{ "source": "/kahoot/(.*)", "destination": "/kahoot" }]
+}
